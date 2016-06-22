@@ -1,0 +1,503 @@
+.tanks_control_table_input {
+    width: 80px;
+}
+/*liquid1*/
+#liquidTank1Info {
+    position: absolute;
+    left: 15px;
+    top: 260px;
+}
+
+#liquidTank1_overload {
+    position: absolute;
+    left: 145px;
+    top: 270px;
+}
+
+#liquidTank1_lw1_circle {
+    position: absolute;
+    left: 60px;
+    top: 165px;
+
+}
+
+#liquidTank1_lw2_circle {
+    position: absolute;
+    left: 180px;
+    top: 125px;
+
+}
+
+#liquidTank1_m1o_load {
+    position: absolute;
+    left: 75px;
+    top: 200px;
+}
+
+#liquidTank1_m2o_load {
+    position: absolute;
+    /*left: 98px;*/
+    /*top: 200px;*/
+    left: 200px;
+    top: 165px;
+}
+
+#liquidTank1Unload {
+    position: absolute;
+    left: 76px;
+    top: 373px;
+}
+
+#liquidTank1_HL1_circle {
+    position: absolute;
+    left: 55px;
+    top: 70px;
+}
+
+#liquid1_m1_pump {
+    position: absolute;
+    left: 75px;
+    top: 30px;
+}
+
+/*liquid2*/
+#liquidTank2Info {
+    position: absolute;
+    left: 240px;
+    top: 260px;
+}
+
+#liquidTank2_lw2_circle {
+    position: absolute;
+    left: 265px;
+    top: 125px;
+}
+
+#liquidTank2_lw3_circle {
+    position: absolute;
+    left: 350px;
+    top: 125px;
+}
+
+#liquidTank2_m1o_load {
+    position: absolute;
+    left: 98px;
+    top: 200px;
+}
+
+#liquidTank2_m2o_load {
+    position: absolute;
+    left: 283px;
+    top: 165px;
+}
+
+#liquidTank2_m3o_load {
+    position: absolute;
+    left: 367px;
+    top: 165px;
+}
+
+/*#liquidTank2_overload {*/
+/*position: absolute;*/
+/*left: 220px;*/
+/*top: 360px;*/
+/*}*/
+#liquidTank2_overload_lamp {
+    position: absolute;
+    left: 235px;
+    top: 355px;
+
+}
+
+#liquidTank2_overload_msg {
+    position: absolute;
+    left: 200px;
+    top: 368px;
+}
+
+#liquidTank2Unload {
+    position: absolute;
+    left: 303px;
+    top: 373px;
+}
+
+/*inert1*/
+#inertTank1Info {
+    position: absolute;
+    left: 835px;
+    top: 120px;
+}
+
+#inertTank1Overload {
+    position: absolute;
+    left: 835px;
+    top: 215px;
+}
+
+#inertTank1_m1o_load {
+    position: absolute;
+    left: 866px;
+    top: 70px;
+}
+
+#inertTank1_m2o_load {
+    position: absolute;
+    left: 903px;
+    top: 70px;
+}
+
+#inertTank1Unload {
+    position: absolute;
+    left: 885px;
+    top: 305px;
+}
+
+/*inert 2*/
+#inertTank2Info {
+    position: absolute;
+    left: 1050px;
+    top: 215px;
+}
+
+/*#inertTank2Overload {*/
+/*position: absolute;*/
+/*left: 690px;*/
+/*top: 200px;*/
+/*}*/
+#inertTank2Overload_lamp {
+    position: absolute;
+    left: 1030px;
+    top: 295px;
+}
+
+#inertTank2Overload_msg {
+    position: absolute;
+    left: 990px;
+    top: 310px;
+}
+
+#inertTank2_lw4_circle {
+    position: absolute;
+    left: 834px;
+    top: 25px;
+}
+
+#inertTank2_lw5_circle {
+    position: absolute;
+    left: 895px;
+    top: 25px;
+}
+
+#inertTank2_lw1_circle {
+    position: absolute;
+    left: 1005px;
+    top: 125px;
+}
+
+#inertTank2_lw2_circle {
+    position: absolute;
+    left: 1090px;
+    top: 125px;
+}
+
+#inertTank2_lw3_circle {
+    position: absolute;
+    left: 1170px;
+    top: 125px;
+}
+
+#inertTank2_FI1 {
+    position: absolute;
+    left: 1050px;
+    top: 25px;
+}
+
+#inertTank2_m1o_load {
+    position: absolute;
+    left: 1023px;
+    top: 165px;
+}
+
+#inertTank2_m2o_load {
+    position: absolute;
+    left: 1106px;
+    top: 165px;
+}
+
+#inertTank2_m3o_load {
+    position: absolute;
+    left: 1189px;
+    top: 165px;
+}
+
+#inertTank2Unload {
+    position: absolute;
+    left: 1106px;
+    top: 327px;
+}
+
+/*#inertTank2UnloadLower {*/
+/*position: absolute;*/
+/*left: 185px;*/
+/*top: 395px;*/
+/*}*/
+
+/*inert3*/
+#inertTank3Info {
+    position: absolute;
+    top: 215px;
+    left: 1235px;
+}
+
+/*#inertTank3Overload {*/
+/*position: absolute;*/
+/*top: 275px;*/
+/*left: 1200px;*/
+/*}*/
+#inertTank3Overload_lamp {
+    position: absolute;
+    left: 1227px;
+    top: 312px;
+}
+
+#inertTank3Overload_msg {
+    position: absolute;
+    left: 1205px;
+    top: 327px;
+}
+
+#inertTank3_lw1_circle {
+    position: absolute;
+    top: 125px;
+    left: 1270px;
+}
+
+#inertTank3_m1o_load {
+    position: absolute;
+    top: 165px;
+    left: 1291px;
+}
+
+#inertTank3_FI1 {
+    position: absolute;
+    left: 1240px;
+    top: 25px;
+}
+
+#inertTank3Unload {
+    position: absolute;
+    left: 1291px;
+    top: 327px;
+}
+
+/*#inertTank3UnloadLower {*/
+/*position: absolute;*/
+/*left: 345px;*/
+/*top: 395px;*/
+/*}*/
+
+/*mixer*/
+.mixer_engine {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+#heatMixerInnerTempWrapper {
+    position: absolute;
+    left: 7px;
+    top: 430px;
+}
+
+#heatMixerInfo {
+    position: absolute;
+    left: 470px;
+    top: 210px;
+}
+
+#heatMixerWorksCircle {
+    position: absolute;
+    left: 538px;
+    top: 190px;
+}
+
+#coolMixerInfo {
+    position: absolute;
+    top: 420px;
+    left: 470px;
+}
+
+#coolMixerWorksCircle {
+    position: absolute;
+    left: 538px;
+    top: 400px;
+}
+
+#coolMixerUnloadedWeight {
+    position: absolute;
+    left: 518px;
+    top: 520px;
+}
+
+#stageMessage {
+    position: absolute;
+    left: 460px;
+    top: 25px;
+    width: 170px;
+}
+
+#cStageMessage {
+    position: absolute;
+    left: 549px;
+    top: 321px;
+    width: 170px;
+}
+
+#unloadHeatCircle {
+    position: absolute;
+    left: 538px;
+    top: 316px;
+}
+
+#unloadCoolCircle {
+    position: absolute;
+    left: 538px;
+    top: 478px;
+}
+
+#mixerLoadsFromLiquidCircle {
+    position: absolute;
+    left: 186px;
+    top: 539px;
+}
+
+/*extruder*/
+
+.extruder_engine {
+    border: 1px solid;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+}
+.kendo_input_constant_size{
+    width: 50px;
+    height:27px;
+}
+
+#screwWorksCircle {
+    position: absolute;
+    left: 743px;
+    top: 463px;
+}
+
+#extruder1run {
+    position: absolute;
+    left: 740px;
+    top: 515px;
+}
+
+#extruder2run {
+    position: absolute;
+    left: 1325px;
+    top: 587px;
+}
+
+#knifesWorkCircle {
+    position: absolute;
+    left: 745px;
+    top: 586px;
+}
+
+#e1temperaturesWrapper {
+    position: absolute;
+    left: 941px;
+    top: 452px;
+
+    /*расстояние между рядами:*/
+    border-collapse: separate;
+    border-spacing: 0 13px;
+
+}
+
+#e1temperaturesWrapper td {
+    /*padding-right: 20px;*/
+    /*min-width: 80px;*/
+    /*max-width: 80px;*/
+    width: 72px;
+    /*border: solid black 1px;*/
+}
+
+#e1temperaturesWrapper div {
+    font-size: 16px;
+    font-family: "Arial";
+}
+
+#e2temperaturesWrapper {
+    position: absolute;
+    left: 776px;
+    top: 526px;
+    /*расстояние между рядами:*/
+    border-collapse: separate;
+    border-spacing: 0 13px;
+}
+
+#e2temperaturesWrapper td {
+    width: 65px;
+    /*border: solid black 1px;*/
+}
+
+#e2temperaturesWrapper div {
+    font-size: 16px;
+    font-family: "Arial";
+}
+
+#extruder1_title_wrapper {
+    position: absolute;
+    left: 751px;
+    top: 502px;
+    /*vert-align: ;*/
+}
+
+#extruder1_title_wrapper div {
+    padding-left: 10px;
+    font-size: 16px;
+
+}
+
+#extruder2_title_wrapper {
+    position: absolute;
+    left: 1158px;
+    top: 573px;
+}
+
+#extruder2_title_wrapper div {
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+#screw_speed_wrapper {
+    position: absolute;
+    left: 782px;
+    top: 402px;
+}
+#screw_speed_wrapper div{
+    font-size: 16px;
+}
+#knifes_speed_wrapper{
+    position: absolute;
+    left: 663px;
+    top: 537px;
+
+}
+#knifes_speed_wrapper div{
+    font-size: 16px;
+}
+#checbox_wrapper{
+    position: absolute;
+    left: 1163px;
+    top: 405px;
+}
+#checbox_wrapper div{
+    font-size: 14px;
+}
