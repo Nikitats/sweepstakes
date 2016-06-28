@@ -1,0 +1,278 @@
+body{
+	margin:0;
+	position:absolute;
+}
+header
+{
+	background-color: #fbf8f7;
+	border: 0px solid white;
+	box-shadow: 4px 4px 5px 0px rgba(48, 48, 48, 0.21);
+	float: left;
+	height: 50px;
+	margin-top: 5px;
+	width: 1920px;
+}
+nav a
+{
+	text-decoration: none;
+}
+header nav ul
+{
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+header nav li
+{
+	font: 14px '0swald', sans-serif;
+	list-style-position: inside;
+	padding-left: 10px;
+	padding-right: 40px;
+	padding-top: 15px;
+}
+.menu li
+{
+	display: inline-block;
+	float: right;
+	list-style-type: none;
+}
+header .menu a
+{
+	color: #252323;
+	font-size: 17px;
+}
+header a:hover
+{
+	color: #ec7550;
+}
+header.menu
+{
+	height: 100px;
+	width: 1920px;
+}
+
+/*header{
+height:100px;
+width:1920px;
+border:2px solid black;	
+float:left;
+}*/
+
+form{
+	margin:0;
+}
+
+.sidebar{
+	width:295px;
+	height:700px;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+	float:left;
+}
+
+.content{
+	width:1300px;
+	height:700px;
+	/*border:2px solid black;*/
+	float:left;
+}
+
+.bettable{
+	width:313px;
+	height:700px;
+	box-shadow: 0 10px 10px rgba(0,13,0,0.5);
+	float:right;
+}
+
+.matchs{
+	width:1200px;
+	height:290px;
+	/*border:2px solid black;*/
+	margin-left:190px;
+	margin-top:130px;
+	overflow:auto;
+}
+
+h2{
+	color: #252323;
+	font-family: 'Rubik One', sans-serif;
+	font-size:45px;
+	margin-left:20px;
+}
+
+table a{
+	min-width:250px;
+	max-height:35px;
+	/*border:2px solid black;*/
+	text-decoration:none;
+	color:black;
+	display:block;
+	text-align:center;
+}
+
+input[type="submit"]{
+	height:30px;
+	margin-left:15px;
+	border-radius:15px;
+}
+
+input[type="radio"]{
+	height:30px;
+	margin-left:15px;
+	border-radius:15px;
+	float:left;
+}
+
+input[type="text"]{
+	height:30px;
+	margin-left:5px;
+	border-radius:15px;
+}
+
+table{
+	border-spacing:10px 20px;
+}
+
+tr{
+	height:1px;
+}
+
+td{
+	width:350px;	
+	height:20px;
+	border-radius:25px;
+	margin-bottom:20px;
+	font-size:25px;
+	background-color:#FF744B;
+}
+
+bettable b{
+	text-align:right;
+	font-size:17px;
+}
+
+.bets{
+	width:290px;
+	height:300px;
+	/*border:2px solid black;*/
+	margin-top:100px;
+}
+
+h3{
+	font-size:30px;
+	margin-left:60px;
+}
+
+label{
+	font-family: 'Droid Serif', serif-bold;
+}
+
+#info{
+	height:200px;
+	width:280px;
+	overflow:scroll;
+	font-size:25px;
+	margin-left:20px;
+}
+
+#cash{
+	width:70px;
+	font-size:20px;
+	margin-top:20px;
+	margin-left:20px;
+}
+
+
+footer{
+	width:1920px;
+	height:250px;
+/*	border:2px solid black;*/
+	background-color:#fbf8f7;
+	float:left;
+}
+
+footer nav{
+   width:170px;
+   height:200px;
+/*   border:2px solid black;*/
+   font-size:26px;
+   float:left;
+   margin-top:-2px;
+   margin-left:80px;
+}
+
+footer li{
+	list-style-type:none;
+	margin-bottom:15px;
+}
+
+footer li:first-child{
+	margin-top:15px;
+}
+
+footer a{
+	
+	text-decoration:none;
+	color:black;
+}
+
+.contacts{
+	width:1640px;
+	height:200px;
+	text-align:center;
+	/*border:2px solid black;*/
+	float:left;
+	font-size:25px;
+	
+	margin-top:-2px;
+}
+
+.contacts p{
+	margin-top:-5px;
+	font-family: 'Droid Serif', serif-bold;
+	font-weight:600;
+}
+
+.telephone{
+	width:250px;
+	height:200px;
+	/*border:2px solid black;*/
+	float:left;
+	margin-left:450px;
+	margin-top:5px;
+}
+
+.address{
+	width:130px;
+	height:200px;
+	/*border:2px solid black;*/
+	float:left;
+	margin-top:5px;
+}
+
+.email{
+	width:250px;
+	height:200px;
+	/*border:2px solid black;*/
+	float:left;
+	margin-top:5px;
+}
+
+.email a{
+	text-decoration:none;
+}
+
+.avtorfoot{
+	width:1920px;
+	height:50px;
+	background-color:#FF744B;
+	float:left;
+	text-align:center;
+	
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+}
